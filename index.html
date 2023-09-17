@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contaner">
+        <div class="acc-box">
+            <div class="div1 signup">
+                <h1>sign up</h1>
+                <p>sign in with your simple details it will be cross checked by the admenestrator</p>
+            </div>
+            <div class="div2 login">
+                <h1>sign in</h1>
+                <p>sign in with you username and password </p>
+            </div>  
+
+        </div>
+        <div class="form-box">
+            <form >
+                <div class="input-group">
+
+                    <div class="field">
+                        <div class="input-field firstname">
+                            <label for="firstname">first name</label>
+                            <input type="text"  id="firstname" placeholder="examplenew" required>
+                            
+                        </div>
+    
+                        <div class="input-field lastname">
+                            <label for="lastname">phone number</label>
+                            <input type="text" id="phonenumber" placeholder="07XXXXXXXX" required>
+                            
+                        </div>
+    
+                        <div class="input-field">
+                            <label for="email">email</label>
+                            <input type="email" id="email" placeholder="example@gmail.com" required>
+                           
+                        </div>
+    
+                        <div class="input-field">
+                            <label for="password">password</label>
+                            <input type="password" id="password" placeholder="*************" required>
+                         
+                        </div>
+                    </div>
+
+                    <span id="error-message"></span>
+
+
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="myCheckbox">
+                        <label class="checkbox-label" for="myCheckbox"><small>i agree with the terms and conditions</small></label>
+                    </div>
+                        
+                
+
+                    <div class="btn-feild">
+                        <input type="submit" id="signupbtn" value="sign up">
+                            <span style="padding-top: 4px;">or</span>
+                        <input type="submit" id="loginbtn" value="log in">
+                    </div>
+
+
+
+                </div>
+            </form>
+        </div>   
+    </div>  
+<script src="script.js"></script>
+</body>
+</html>
+
+
